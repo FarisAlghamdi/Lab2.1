@@ -1,0 +1,67 @@
+.inspector h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.muted {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.tips {
+  margin: 0.75rem 0 0;
+  padding-left: 1.1rem;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.field input,
+.field select,
+.field textarea {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: #e2e8f0;
+  padding: 0.45rem 0.6rem;
+  font: inherit;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: 2px solid #38bdf8;
+  outline-offset: 1px;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
+.link-endpoints {
+  margin: 0 0 0.9rem;
+  color: #7dd3fc;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.inspector-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}

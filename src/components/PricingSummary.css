@@ -1,0 +1,103 @@
+.pricing-summary h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.summary-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.55rem;
+  margin-bottom: 0.9rem;
+}
+
+.stat {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.stat-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.stat-value.accent {
+  color: #86efac;
+}
+
+.sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.sort-bar select {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #e2e8f0;
+  padding: 0.25rem 0.4rem;
+  font: inherit;
+}
+
+.table-wrap {
+  overflow: auto;
+  max-height: 220px;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+}
+
+.pricing-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.pricing-summary th,
+.pricing-summary td {
+  text-align: left;
+  padding: 0.45rem 0.55rem;
+  border-bottom: 1px solid #1e293b;
+}
+
+.pricing-summary th {
+  color: #94a3b8;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  background: #111827;
+}
+
+.pricing-summary tbody tr {
+  cursor: pointer;
+}
+
+.pricing-summary tbody tr:hover {
+  background: #1e293b;
+}
+
+.pricing-summary .empty {
+  margin: 0;
+}
+
+.muted {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
